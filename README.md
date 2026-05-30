@@ -3,7 +3,13 @@
 A full-stack AI-powered student analytics and adaptive learning platform.
 
 ---
+## Problem Statement
 
+Teachers often struggle to identify at-risk students early, monitor engagement across large classrooms, and provide personalized learning support.
+Traditional gradebooks show scores but rarely provide actionable insights.
+LearnIQ was built to combine student analytics, machine learning, and adaptive recommendations into a single platform that helps educators identify learning gaps, predict risks, and support student success.
+
+---
 ## 🗂️ Project Structure
 
 ```
