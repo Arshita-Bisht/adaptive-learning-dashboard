@@ -93,6 +93,48 @@ adaptive-learning/
 ├── README.md
 ├── .gitignore
 └── LICENSE (optional but recommended)
+=======
+├── backend/
+│   ├── main.py                  # FastAPI app entry point
+│   ├── requirements.txt
+│   ├── models/
+│   │   └── database.py          # Simulated data + DB helpers
+│   ├── ml/
+│   │   └── models.py            # K-Means, Logistic Regression, Recommendations
+│   └── routes/
+│       ├── students.py
+│       ├── analytics.py
+│       ├── recommendations.py
+│       ├── predictions.py
+│       ├── alerts.py
+│       └── admin.py
+└── frontend/
+    ├── package.json
+    ├── public/
+    │   └── index.html
+    └── src/
+        ├── App.js
+        ├── index.js
+        ├── index.css
+        ├── context/
+        │   └── ThemeContext.js
+        ├── utils/
+        │   └── api.js
+        ├── components/common/
+        │   ├── Sidebar.js
+        │   ├── Topbar.js
+        │   └── Chatbot.js
+        └── pages/
+            ├── Overview.js
+            ├── Students.js
+            ├── StudentProfile.js
+            ├── Analytics.js
+            ├── Recommendations.js
+            ├── Predictions.js
+            ├── Alerts.js
+            ├── Leaderboard.js
+            └── Admin.js
+
 ```
 
 ---
