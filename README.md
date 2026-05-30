@@ -2,6 +2,8 @@
 
 A full-stack AI-powered student analytics and adaptive learning platform.
 
+📹 Demo Video: https://www.loom.com/share/50381da148134764bcb2e0189005e5fa
+
 ---
 ## Problem Statement
 
